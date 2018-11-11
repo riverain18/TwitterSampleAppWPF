@@ -1,0 +1,23 @@
+﻿<Window x:Class="TwitterSampleAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TwitterSampleAppWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Button Content="OAuth認証" HorizontalAlignment="Left" Margin="54,66,0,0" VerticalAlignment="Top" Width="170" Height="42" FontSize="22" Click="Button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="42" Margin="417,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" FontSize="22"/>
+        <Button Content="認証" HorizontalAlignment="Left" Margin="618,66,0,0" VerticalAlignment="Top" Width="125" Height="42" FontSize="22" Click="Button_Click_1"/>
+        <Button Content="既に発行されたトークンで認証" HorizontalAlignment="Left" Margin="54,130,0,0" VerticalAlignment="Top" Width="283" Height="42" FontSize="22" Click="Button_Click_2"/>
+        <Button Content="Tweet" HorizontalAlignment="Left" Margin="54,279,0,0" VerticalAlignment="Top" Width="120" Height="42" FontSize="22" Click="Button_Click_3"/>
+        <Button Content="タイムラインを取得" HorizontalAlignment="Left" Margin="54,433,0,0" VerticalAlignment="Top" Width="195" Height="38" FontSize="22" Click="Button_Click_4"/>
+        <Button Content="特定の単語を含むTweetを取得" HorizontalAlignment="Left" Margin="54,498,0,0" VerticalAlignment="Top" Width="315" Height="38" FontSize="22" Click="Button_Click_5"/>
+        <TextBox x:Name="textBox_word" HorizontalAlignment="Left" Height="38" Margin="417,498,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" FontSize="22"/>
+        <Label Content="認証" HorizontalAlignment="Left" Margin="54,21,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="REST API" HorizontalAlignment="Left" Margin="54,234,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="Streaming API" HorizontalAlignment="Left" Margin="56,385,0,0" VerticalAlignment="Top" FontSize="22"/>
+
+    </Grid>
+</Window>
